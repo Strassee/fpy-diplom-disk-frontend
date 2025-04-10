@@ -1,0 +1,24 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: start;
+  flex-basis: 70px;
+  flex-grow: 1;
+  /* flex: 1 1 auto; */
+  box-sizing: border-box;
+  width: 100%;
+  /* min-height: 40px; */
+}
+
+.footer-sign {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  box-sizing: border-box;
+  /* width: 100%; */
+  /* min-height: 40px; */
+  font-size: .75rem;
+  text-align: right;
+}

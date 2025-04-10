@@ -1,0 +1,20 @@
+.table-user th {
+  text-align: left;
+  width: 8rem;
+}
+
+.table-user td {
+  width: 11rem;
+}
+
+.user {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.user-save {
+  margin: .3125rem;
+}

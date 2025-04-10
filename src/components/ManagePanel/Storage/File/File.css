@@ -1,0 +1,11 @@
+.table-file th {
+  text-align: left;
+  width: 10rem;
+}
+
+.file-information {
+  background: rgba(0, 0, 0, 0.16);
+  border-radius: 5px;
+  margin: .0rem .625rem .625rem .625rem;
+  padding: .625rem .0rem;
+}

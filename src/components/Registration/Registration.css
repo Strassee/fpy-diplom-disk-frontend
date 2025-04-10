@@ -1,0 +1,20 @@
+.registration {
+  width: 18.2rem;
+  box-sizing: border-box;
+  margin: 80px 0 auto 0;
+  padding: 10px 10px 10px 10px;
+}
+
+.input__box.reg {
+  margin-bottom: 0.5rem;
+  position: relative;
+}
+
+.label-input.reg {
+  top: 0;
+  position: relative;
+}
+
+.label-hint {
+  font-size: .6875rem;
+}

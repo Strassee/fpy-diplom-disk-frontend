@@ -1,38 +1,138 @@
+body {
+  color: #000000;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+}
+
 .App {
+  background: rgb(9,96,121);
+  background: linear-gradient(52deg, rgba(9,96,121,1) 0%, rgba(5,152,186,1) 33%, rgba(0,212,255,1) 68%);
   text-align: center;
+  margin: auto;
+  width: 100vw;
+  /* min-height: 100vh; */
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.mainpage {
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  box-sizing: border-box;
+  width: 90%;
+  min-height: 40px;
+  /* height: 60px; */
+  /* margin-top: 50px; */
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px 10px;
+  min-height: 100vh;
 }
 
-.App-link {
-  color: #61dafb;
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  flex-basis: auto;
+  flex-grow: 10000;
+  width: 100%;
+  /* min-height: 300px; */
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.table {
+  /* border-collapse: collapse; */
+  border-radius: 5px;
+  margin: 0px .625rem .625rem .625rem;
+  padding: .625rem .625rem;
+  background: rgba(0, 0, 0, 0.16);
+  font-size: .875rem;
+}
+
+.table th, td {
+  /* border-radius: 5px; */
+  background: rgba(0, 0, 0, 0.16);
+  padding: .125rem .3125rem;
+}
+
+.table tr:hover {
+  background: rgba(0, 0, 0, 0.16);
+}
+
+.td-pointer {
+  cursor: pointer;
+}
+
+input[type=button] {
+  width: 100px;
+  height: 25px;
+  font-size: .875rem;
+  border-radius: 5px;
+  background-color: #8cff9b;
+  border: 1px #32ff9f solid;
+  cursor: pointer;
+  margin: 0px 2px 0px 2px;
+}
+
+input[type=submit] {
+  width: 100px;
+  height: 25px;
+  font-size: .875rem;
+  border-radius: 5px;
+  background-color: #8cff9b;
+  border: 1px #32ff9f solid;
+  cursor: pointer;
+  margin: 0px 2px 0px 2px;
+}
+
+input[type=button]:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 -3px 12px 0 rgba(0,0,0,0.19);
+}
+
+input[type=submit]:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.24),0 -3px 12px 0 rgba(0,0,0,0.19);
+}
+
+.span-pointer {
+  cursor: pointer;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+  html {
+    font-size: 16px;
   }
-  to {
-    transform: rotate(360deg);
+}
+
+/* Portrait tablets and medium desktops */
+@media (min-width: 992px) and  (max-width: 1199px) {
+  html {
+    font-size: 15px;
   }
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and  (max-width: 991px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* Landscape phones and portrait tablets */
+@media (min-width: 480px) and  (max-width: 767px) {
+  html {
+    font-size: 13px;
+  }
+}
+
+/* Landscape phones and smaller */
+@media (max-width: 479px) {
+  html {
+    font-size: 12px;
+  }
+}
+
+.icon-delete:hover, .icon-download:hover, .icon-edit:hover {
+  border-radius: 5px;
+  background: rgba(0, 0, 0, 0.16);
+  cursor: pointer;
 }

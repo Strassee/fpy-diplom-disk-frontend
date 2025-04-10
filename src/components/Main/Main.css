@@ -1,0 +1,14 @@
+
+.main {
+  margin: auto;
+}
+
+.main-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+input[type=button].btn-to-panel {
+  width: 10rem;
+  margin-top: 1rem;
+}

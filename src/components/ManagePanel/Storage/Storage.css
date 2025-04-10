@@ -1,0 +1,32 @@
+.storage {
+  border-radius: 5px;
+  margin: 0px .625rem .625rem .625rem;
+  background: rgba(0, 0, 0, 0.16);
+
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.table.table-files {
+  margin: .625rem .625rem .625rem .625rem;
+  table-layout: fixed;
+
+  /* max-width: 10rem; */
+}
+
+.table.table-files th, td{
+  max-width: 10rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.storage-title {
+  margin: .625rem .625rem .625rem .625rem;
+  font-weight: 700;
+}
+
+.storage-title.other {
+  color:rgb(231, 0, 0)  
+}
